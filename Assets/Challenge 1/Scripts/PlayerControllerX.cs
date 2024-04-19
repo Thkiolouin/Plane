@@ -21,8 +21,6 @@ public class PlayerControllerX : MonoBehaviour
         // move the plane forward at a constant rate
         transform.Translate(Vector3.forward * speed);
 
-        Debug.Log(horizontalInput);
-
         if (horizontalInput <= -0.5f)
         {
             // tilt the plane up/down based on up/down arrow keys
